@@ -26,11 +26,11 @@ ul {
     background: #1F2937;
 }
 .maincard{
-    
     width: 900px;
     height: 300px;
     display: flex;
     background-color: #1F2937;
+    
 
 }
 .maincard div{
@@ -61,4 +61,16 @@ button{
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 480;
+    width: 300;
+    
+}
+.gokuimg{
+    width: 480px;
+    height: 400px;
 }
