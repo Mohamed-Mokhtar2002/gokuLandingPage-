@@ -133,3 +133,53 @@ button{
     font-size: 25px;
     font-weight: 700;
 }
+.sign-up{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up_card{
+    width: 900px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    
+}
+.sign-up_card div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column ;
+    width: 500px;
+}
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up_card div h1{
+    color: #F9FAF8;
+}
+.button{
+    padding: 5px 25px;
+    margin-top: 8px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid white;
+}
+footer{
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+}
