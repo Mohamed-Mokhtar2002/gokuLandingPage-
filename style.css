@@ -68,9 +68,68 @@ button{
     justify-content: center;
     height: 480;
     width: 300;
-    
+   
 }
 .gokuimg{
     width: 480px;
     height: 400px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.title h1{
+    font-size: 36px;
+    color: #1F2937;
+}
+.informations{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+.informations div{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 8px;
+}
+.para{
+    color: #1F2937;
+    font-family: thin;
+}
+.element{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    color: black;
+    background-color: #E5E7EB;
+}
+.quote p{
+    font-size: 36px;
+    text-align: center;
+    font-family: Merriweather, serif;
+    font-weight: 200;
+    font-style: italic;
+    color: black;
+    
+}
+.fft{
+    height: 200px;   
+}
+.Goku-quote{
+    margin-left: 780px;
+    font-style: bold;
+    font-size: 25px;
+    font-weight: 700;
 }
